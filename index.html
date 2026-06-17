@@ -9,192 +9,253 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header class="navbar">
+  <header class="topbar">
     <a href="#" class="brand">
-      <div class="logo">
-        <span class="logo-line"></span>
-        <span class="logo-dot"></span>
-      </div>
+      <div class="brand-mark">MP</div>
       <div>
         <h1>MedPath Connect</h1>
-        <p>Find your path in healthcare</p>
+        <p>Healthcare opportunity hub</p>
       </div>
     </a>
 
-    <nav>
+    <nav class="nav">
       <a href="#opportunities">Opportunities</a>
       <a href="#resources">Resources</a>
-      <a href="#about">About</a>
-      <a href="#submit" class="nav-btn">Submit</a>
+      <a href="#mission">Mission</a>
+      <a href="#submit" class="submit-link">Submit</a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">For future healthcare professionals</p>
-        <h2>Discover Opportunities. Build Your Future.</h2>
-        <p class="hero-subtitle">
-          Connecting students with research, clinical, volunteering, shadowing, and mentorship opportunities — all in one place.
+      <div class="hero-left">
+        <p class="badge">Built for future healthcare professionals</p>
+        <h2>The opportunity platform for students entering healthcare.</h2>
+        <p class="hero-text">
+          Find research, clinical, volunteering, shadowing, and mentorship opportunities from one central hub.
         </p>
 
-        <div class="hero-actions">
-          <a href="#opportunities" class="btn primary">Explore Opportunities</a>
-          <a href="#resources" class="btn secondary">View Resources</a>
+        <div class="search-box">
+          <span>🔎</span>
+          <input type="text" placeholder="Search research, volunteering, shadowing..." />
+          <button>Search</button>
+        </div>
+
+        <div class="quick-tags">
+          <a href="#opportunities">Research</a>
+          <a href="#opportunities">Clinical</a>
+          <a href="#opportunities">Volunteering</a>
+          <a href="#opportunities">Shadowing</a>
+          <a href="#opportunities">Mentorship</a>
         </div>
       </div>
 
-      <div class="hero-panel">
-        <div class="panel-top">
-          <p>Opportunity Match</p>
-          <span>Beta</span>
-        </div>
-
-        <div class="match-card">
-          <div class="match-icon">🔬</div>
-          <div>
-            <h3>Research Assistant</h3>
-            <p>Lab experience • Student-friendly</p>
+      <div class="hero-right">
+        <div class="spotlight-card">
+          <div class="spotlight-header">
+            <p>Featured Path</p>
+            <span>Student Friendly</span>
           </div>
-        </div>
 
-        <div class="match-card">
-          <div class="match-icon">🏥</div>
-          <div>
-            <h3>Hospital Volunteering</h3>
-            <p>Service • Patient exposure</p>
-          </div>
-        </div>
+          <h3>Start with one opportunity.</h3>
+          <p>
+            Explore experiences that help you serve communities, build confidence, and prepare for a career in healthcare.
+          </p>
 
-        <div class="match-card">
-          <div class="match-icon">🩺</div>
-          <div>
-            <h3>Shadowing Guide</h3>
-            <p>Email templates • Professional tips</p>
+          <div class="mini-list">
+            <div>
+              <strong>Research</strong>
+              <span>Labs & academic projects</span>
+            </div>
+            <div>
+              <strong>Clinical</strong>
+              <span>Patient-facing exposure</span>
+            </div>
+            <div>
+              <strong>Service</strong>
+              <span>Volunteer opportunities</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="metrics">
+    <section class="category-strip">
       <div>
-        <h3>Research</h3>
-        <p>Explore labs and academic projects</p>
+        <strong>Research</strong>
+        <span>Labs and projects</span>
       </div>
       <div>
-        <h3>Clinical</h3>
-        <p>Find patient-facing experiences</p>
+        <strong>Clinical</strong>
+        <span>Healthcare exposure</span>
       </div>
       <div>
-        <h3>Service</h3>
-        <p>Volunteer in healthcare communities</p>
+        <strong>Volunteering</strong>
+        <span>Community service</span>
       </div>
       <div>
-        <h3>Mentorship</h3>
-        <p>Learn from students and professionals</p>
+        <strong>Shadowing</strong>
+        <span>Professional learning</span>
+      </div>
+      <div>
+        <strong>Mentorship</strong>
+        <span>Guidance and support</span>
       </div>
     </section>
 
     <section id="opportunities" class="section">
-      <div class="section-header">
-        <p class="label">Opportunities</p>
-        <h2>One hub for healthcare experience</h2>
-        <p>
-          Start with curated categories. As MedPath Connect grows, students will be able to search, filter, and submit real opportunities.
-        </p>
+      <div class="section-title">
+        <div>
+          <p class="small-label">Opportunities</p>
+          <h2>Featured opportunities</h2>
+        </div>
+        <a href="#submit">Submit an opportunity →</a>
       </div>
 
-      <div class="grid">
-        <article class="card">
-          <div class="card-icon">🔬</div>
-          <h3>Research</h3>
-          <p>Labs, research assistant roles, professor contacts, and student research programs.</p>
-          <a href="#">Coming soon</a>
+      <div class="opportunity-grid">
+        <article class="opportunity-card">
+          <div class="card-top">
+            <span class="pill research">Research</span>
+            <span class="location">Buffalo, NY</span>
+          </div>
+          <h3>Research Assistant</h3>
+          <p class="org">University Research Lab</p>
+          <p>Support ongoing research, literature review, data organization, and lab-related tasks.</p>
+          <div class="card-footer">
+            <span>Beginner friendly</span>
+            <a href="#">Details soon</a>
+          </div>
         </article>
 
-        <article class="card">
-          <div class="card-icon">🏥</div>
-          <h3>Clinical Experience</h3>
-          <p>Patient-facing roles, clinical exposure, healthcare jobs, and training programs.</p>
-          <a href="#">Coming soon</a>
+        <article class="opportunity-card">
+          <div class="card-top">
+            <span class="pill clinical">Clinical</span>
+            <span class="location">Local</span>
+          </div>
+          <h3>Hospital Volunteer</h3>
+          <p class="org">Healthcare System</p>
+          <p>Gain exposure to healthcare environments while serving patients, visitors, and staff.</p>
+          <div class="card-footer">
+            <span>Service focused</span>
+            <a href="#">Details soon</a>
+          </div>
         </article>
 
-        <article class="card">
-          <div class="card-icon">🤝</div>
-          <h3>Volunteering</h3>
-          <p>Hospitals, nonprofits, community health events, and service opportunities.</p>
-          <a href="#">Coming soon</a>
+        <article class="opportunity-card">
+          <div class="card-top">
+            <span class="pill volunteer">Volunteer</span>
+            <span class="location">Community</span>
+          </div>
+          <h3>Community Health Volunteer</h3>
+          <p class="org">Nonprofit / Community Partner</p>
+          <p>Help with outreach, health education, event support, and community-based service.</p>
+          <div class="card-footer">
+            <span>Flexible</span>
+            <a href="#">Details soon</a>
+          </div>
         </article>
 
-        <article class="card">
-          <div class="card-icon">🩺</div>
-          <h3>Shadowing</h3>
-          <p>Guides and templates to help students contact physicians professionally.</p>
-          <a href="#">Coming soon</a>
+        <article class="opportunity-card">
+          <div class="card-top">
+            <span class="pill shadowing">Shadowing</span>
+            <span class="location">Guide</span>
+          </div>
+          <h3>Physician Shadowing Guide</h3>
+          <p class="org">MedPath Resource</p>
+          <p>Use templates and guidance to respectfully contact physicians and clinics.</p>
+          <div class="card-footer">
+            <span>Email template</span>
+            <a href="#resources">View guide</a>
+          </div>
         </article>
 
-        <article class="card">
-          <div class="card-icon">🌎</div>
-          <h3>International Students</h3>
-          <p>Helpful reminders for students navigating F-1, CPT, OPT, and university rules.</p>
-          <a href="#">Coming soon</a>
+        <article class="opportunity-card">
+          <div class="card-top">
+            <span class="pill mentor">Mentorship</span>
+            <span class="location">Remote</span>
+          </div>
+          <h3>Peer Mentorship</h3>
+          <p class="org">Student Network</p>
+          <p>Connect with students who can share advice on classes, research, resumes, and applications.</p>
+          <div class="card-footer">
+            <span>Coming soon</span>
+            <a href="#">Details soon</a>
+          </div>
         </article>
 
-        <article class="card">
-          <div class="card-icon">🎓</div>
-          <h3>Mentorship</h3>
-          <p>Peer guidance, pre-med support, resume help, and professional development.</p>
-          <a href="#">Coming soon</a>
+        <article class="opportunity-card">
+          <div class="card-top">
+            <span class="pill international">International</span>
+            <span class="location">Resource</span>
+          </div>
+          <h3>International Student Checklist</h3>
+          <p class="org">F-1 Friendly Guidance</p>
+          <p>Questions to ask your university before starting internships, off-campus roles, or unpaid work.</p>
+          <div class="card-footer">
+            <span>Important</span>
+            <a href="#resources">View resource</a>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="resources" class="section resources">
-      <div class="section-header">
-        <p class="label">Resources</p>
-        <h2>Guides that make the process easier</h2>
+    <section id="resources" class="resources-section">
+      <div class="section-title">
+        <div>
+          <p class="small-label">Resources</p>
+          <h2>Tools to help students take action</h2>
+        </div>
       </div>
 
-      <div class="resource-grid">
-        <div class="resource-item">
+      <div class="resource-list">
+        <div class="resource-row">
           <span>01</span>
-          <h3>Email professors for research</h3>
-          <p>Learn how to introduce yourself and ask about lab openings.</p>
+          <div>
+            <h3>Email professors for research</h3>
+            <p>A simple guide for introducing yourself and asking about lab openings.</p>
+          </div>
         </div>
-        <div class="resource-item">
+        <div class="resource-row">
           <span>02</span>
-          <h3>Ask for shadowing</h3>
-          <p>Use professional wording when contacting physicians and clinics.</p>
+          <div>
+            <h3>Ask for shadowing professionally</h3>
+            <p>Learn how to reach out to physicians and clinics with confidence.</p>
+          </div>
         </div>
-        <div class="resource-item">
+        <div class="resource-row">
           <span>03</span>
-          <h3>Build a pre-health resume</h3>
-          <p>Organize research, service, tutoring, leadership, and clinical experience.</p>
+          <div>
+            <h3>Build a pre-health resume</h3>
+            <p>Organize research, tutoring, leadership, volunteering, and clinical experience.</p>
+          </div>
         </div>
-        <div class="resource-item">
+        <div class="resource-row">
           <span>04</span>
-          <h3>International student checklist</h3>
-          <p>Know what to ask your university before accepting certain opportunities.</p>
+          <div>
+            <h3>International student opportunity checklist</h3>
+            <p>Helpful questions to ask ISS or your university before accepting certain roles.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="mission">
+    <section id="mission" class="mission-section">
       <div>
-        <p class="label">Mission</p>
-        <h2>Opportunity should be easier to find.</h2>
+        <p class="small-label">Mission</p>
+        <h2>Access to opportunity should not depend on who you already know.</h2>
       </div>
       <p>
-        Many students want to serve, learn, shadow, research, and grow — but they do not know where to start.
-        MedPath Connect brings opportunities and guidance together so students can take the next step with confidence.
+        MedPath Connect exists to make healthcare opportunities easier to discover. The goal is to help students
+        find experiences, build confidence, serve communities, and prepare for meaningful careers in medicine and healthcare.
       </p>
     </section>
 
     <section id="submit" class="cta">
       <h2>Know an opportunity?</h2>
-      <p>Help another student by submitting research, clinical, volunteering, shadowing, or mentorship opportunities.</p>
-      <a href="https://forms.google.com" target="_blank" class="btn primary">Add Google Form Link</a>
+      <p>Help another student by submitting a research, clinical, volunteering, shadowing, or mentorship opportunity.</p>
+      <a href="https://forms.google.com" target="_blank">Add Google Form Link</a>
     </section>
   </main>
 
