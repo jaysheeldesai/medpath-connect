@@ -2,13 +2,9 @@
 
 Connecting students with research, clinical, volunteering, shadowing, and mentorship opportunities.
 
-## Pages
-This starter version is one-page and includes:
-- Home
-- Opportunities
-- Resources
-- Submit Opportunity
-- About
+## Files
+- index.html
+- style.css
+- assets/jaysheel-founder.jpg
 
-## How to publish
-Upload these files to a GitHub repository and turn on GitHub Pages.
+Upload all files and the assets folder to GitHub.
